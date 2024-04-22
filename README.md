@@ -9,3 +9,6 @@ AdvPro B - Marvel Martin Everthard - 2206081345
 
 2. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
 > **URL** yang sama pada **subscriber** dan **publisher** menunjukkan bahwa keduanya terhubung dan **berkomunikasi dengan server AMQP yang sama**, serta menggunakan _message broker_ yang sama.
+
+3. Running RabbitMQ as message broker
+![Running RabbitMQ as message broker](assets/images/RunningRabbitMQ.png)
