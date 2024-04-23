@@ -16,3 +16,7 @@ AdvPro B - Marvel Martin Everthard - 2206081345
 4. Sending and processing event
 ![Sending and processing event](assets/images/SendingProcessingEvent.png)
 > Hasil screenshot di atas menunjukkan proses yang terjadi ketika menjalankan `cargo run` pada **publisher**. Ketika `cargo run` dijalankan, **publisher** akan mengirim **5 event** ke _message broker_ yang nantinya akan di-_**consume**_ dan diproses oleh **subscriber**. 
+
+5. Monitoring chart based on publisher
+![Monitoring chart based on publisher](assets/images/MonitoringChart.png)
+> Hasil screenshot di atas menunjukkan grafik _message rate_ ketika program **publisher** dijalankan. Grafik tersebut menggambarkan seberapa cepat message dikirim **publisher**. Lonjakan(**spike**) yang ada pada grafik mengindikasikan adanya **peningkatan jumlah _message_** yang dikirim **dalam satu periode waktu** akibat dijalankannya program publisher.
